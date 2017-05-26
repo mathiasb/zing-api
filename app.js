@@ -13,7 +13,8 @@ var corsOptions = {
   allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept'
 };
 var app = express();
-mongoose.connect('localhost:27017/zingdb-tst');
+// uncomment after setting up database stuff properly
+//mongoose.connect('localhost:27017/zingdb-tst');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
